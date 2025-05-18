@@ -15,7 +15,7 @@ cap = cv2.VideoCapture(0)
 
 # Pygame and OpenGL setup
 pygame.init()
-display = (800, 600)
+display = (2000, 1400)
 pygame.display.set_mode(display, DOUBLEBUF | OPENGL)
 gluPerspective(45, (display[0] / display[1]), 0.1, 50.0)
 glTranslatef(0.0, 0.0, -5)
